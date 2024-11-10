@@ -1,0 +1,144 @@
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #FFF1DB;
+            color: black;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #CA7373;
+            color: wheat;
+            padding: 20px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 50px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 25px;
+            text-align: center;
+        }
+        
+    
+        .container {
+            display: flex;
+            margin-left: 40px;
+            margin-right: 40px;
+            margin-bottom: 5px;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .left-column {
+            width: 30%;
+            padding-right: 10px;
+
+
+        }
+        
+        .profile-picture {
+        
+            width: 180px;
+            height: 180px;
+            margin-top: 5%;
+            margin-left: 20%;
+            border-radius: 10%;
+            border: 2px solid black;
+            margin-bottom: 10px;
+    
+        }
+
+        button {
+            font-family: 'Times New Roman', Times, serif;
+            border-radius: 10px;
+            margin-left: 20%;
+            box-shadow: 0 0 10px black;
+            cursor: pointer;
+            margin-top: 15px;
+            margin-bottom: 30px;
+            font-size: 14px;
+            padding: 3px;
+            text-align: center;
+        }
+        
+        button:hover {
+            background-color: #ff737c;
+        }
+        
+
+        
+        .right-column {
+            width: 70%;
+            padding-left: 20px;
+        }
+
+        .contact-info ul,
+        .skills ul,
+        .education ul,
+        .experience ul,
+        .certification p {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .contact-info ul li,
+        .skills li,
+        .experience li,
+        .education li,
+        .certification li {
+            margin: 10px 0;
+        }
+
+        .section-title {
+            background-color: #CA7373;
+            color: white;
+            padding: 5px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .section-header {
+            font-size: 26px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #CA7373;
+            color: white;
+            margin-top: 30px;
+        }
+
+
+
+        /* Media Query for mobile */
+        @media screen and (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                padding: 10px;
+            }
+
+            .left-column {
+                width: 100%;
+                padding-right: 0;
+            }
+
+            .right-column {
+                width: 100%;
+            }
+        }
+    
